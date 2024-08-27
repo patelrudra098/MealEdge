@@ -7,7 +7,7 @@ const NutritionDB = () => {
   const [nutritionInfo, setNutritionInfo] = useState(null);
   const [error, setError] = useState('');
 
-  const apiKey = '09fa079ebb8d409d81d7a68716dee758'; // Replace with your actual API key
+  const apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
 
   const handleSearch = async (e) => {
     e.preventDefault();
