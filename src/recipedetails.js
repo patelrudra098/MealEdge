@@ -11,7 +11,7 @@ const RecipeDetails = () => {
   const [isNutrientsOpen, setIsNutrientsOpen] = useState(false); // Manage dropdown state
   const [openModal, setOpenModal] = useState(null); // For managing which modal is open
 
-  const apiKey = '09fa079ebb8d409d81d7a68716dee758';
+  const apiKey = 'YOUR_API_KEY';
 
   useEffect(() => {
     const fetchRecipeDetails = async () => {
