@@ -22,7 +22,7 @@ const Home = () => {
   const [error, setError] = useState('');
   const [searchTriggered, setSearchTriggered] = useState(false); // Flag for triggering search
 
-  const apiKey = '09fa079ebb8d409d81d7a68716dee758';
+  const apiKey = 'YOUR_API_KEY';
 
   const categoryMapping = useMemo(() => ({
     dietGoal: {
